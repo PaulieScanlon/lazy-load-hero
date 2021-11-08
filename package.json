@@ -1,0 +1,32 @@
+{
+  "name": "gatsby-demo-minimal",
+  "version": "1.0.0",
+  "description": "Gatsby's minimal demo",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "serve": "gatsby serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatsby-inc/gatsby-demo-minimal.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsbyjs"
+  ],
+  "author": "Paul Scanlon <paul.scanlon@gatsbyjs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gatsby-inc/gatsby-demo-minimal/issues"
+  },
+  "homepage": "https://github.com/gatsby-inc/gatsby-demo-minimal#readme",
+  "dependencies": {
+    "gatsby": "^4.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
