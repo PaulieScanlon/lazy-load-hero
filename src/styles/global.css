@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-brand-gradient {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-brand-lowlight via-brand-primary via-brand-highlight to-brand-secondary;
+}
+
+.border-rainbow-gradient {
+  display: inline-flex;
+  background-clip: content-box, border-box;
+  background-image: linear-gradient(#12071f, #12071f), linear-gradient(to right, #159bf3, #ffdf37, #fb8400, #ff0d6a);
+}
