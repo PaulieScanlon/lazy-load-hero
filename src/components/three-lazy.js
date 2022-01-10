@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Suspense, lazy, Fragment } from 'react';
+import React, { useState, useEffect, Suspense, lazy } from 'react';
 
 const ThreeCanvas = lazy(() => import('./three-canvas'));
 
@@ -10,13 +10,13 @@ const ThreeLazy = () => {
   }, []);
 
   return (
-    <Fragment>
+    <>
       {!isMounted || navigator?.connection?.saveData || !matchMedia('(min-width: 768px)').matches ? null : (
         <Suspense fallback={null}>
           <ThreeCanvas />
         </Suspense>
       )}
-    </Fragment>
+    </>
   );
 };
 
