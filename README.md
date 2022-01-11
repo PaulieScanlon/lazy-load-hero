@@ -1,6 +1,4 @@
-# About
-
-A lazy-loaded three.js hero animation
+# Lazy-Loading three.js Hero Animations
 
 👀 See the preview: [https://lazyloadhero.gatsbyjs.io/](https://lazyloadhero.gatsbyjs.io/)
 
