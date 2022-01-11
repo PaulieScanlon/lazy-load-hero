@@ -4,7 +4,7 @@ A lazy-loaded three.js hero animation
 
 👀 See the preview: [https://lazyloadhero.gatsbyjs.io/](https://lazyloadhero.gatsbyjs.io/)
 
-📝 Read the post on the Gatsby Blog: [...](https:/)
+📝 Read the post on the Gatsby Blog: [https://www.gatsbyjs.com/blog/lazy-loading-three-js-hero-animations](https://www.gatsbyjs.com/blog/lazy-loading-three-js-hero-animations)
 
 ⚙️ This repo is based on [Gatsby's minimal demo](https://github.com/gatsby-inc/gatsby-demo-minimal)
 
