@@ -14,7 +14,7 @@ const Page = () => {
             <h2 className="text-lg text-white">A three.js hero animation lazy-loaded using React.lazy / Suspense</h2>
             <div>
               <a
-                href="https://www.gatsbyjs.com/blog"
+                href="https://www.gatsbyjs.com/blog/performance-optimization-for-three-js-web-animations"
                 rel="noopener"
                 className="border-rainbow-gradient border-double border-4 border-transparent rounded-full bg-origin-border"
               >
