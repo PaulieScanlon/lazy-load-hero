@@ -1,8 +1,8 @@
-# Lazy-Loading three.js Hero Animations
+# Performance Optimization for three.js Web Animations
 
 👀 See the preview: [https://lazyloadhero.gatsbyjs.io/](https://lazyloadhero.gatsbyjs.io/)
 
-📝 Read the post on the Gatsby Blog: [https://www.gatsbyjs.com/blog/lazy-loading-three-js-hero-animations](https://www.gatsbyjs.com/blog/lazy-loading-three-js-hero-animations)
+📝 Read the post on the Gatsby Blog: [https://www.gatsbyjs.com/blog/performance-optimization-for-three-js-web-animations](https://www.gatsbyjs.com/blog/performance-optimization-for-three-js-web-animations)
 
 ⚙️ This repo is based on [Gatsby's minimal demo](https://github.com/gatsby-inc/gatsby-demo-minimal)
 

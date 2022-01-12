@@ -13,8 +13,8 @@ module.exports = {
           background: '#12071F'
         }
       },
-      gridTemplateColumns: {
-        ['auto-1fr']: 'auto 1fr'
+      maxWidth: {
+        section: '750px'
       }
     }
   },
