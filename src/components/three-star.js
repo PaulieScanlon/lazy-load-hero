@@ -1,6 +1,6 @@
 import React from 'react';
 
-const RADIUS = 0.8;
+const RADIUS = 0.3;
 
 const ThreeStar = ({ x, y, z }) => {
   return (

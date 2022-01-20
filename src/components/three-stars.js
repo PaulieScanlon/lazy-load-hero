@@ -13,7 +13,7 @@ const ThreeStars = () => {
 
   return (
     <mesh ref={mesh}>
-      {new Array(200).fill('').map((_, index) => {
+      {new Array(1000).fill('').map((_, index) => {
         const x = Math.random() * RANGE - RANGE / 2;
         const y = Math.random() * RANGE - RANGE / 2;
         const z = Math.random() * RANGE - RANGE / 2;
