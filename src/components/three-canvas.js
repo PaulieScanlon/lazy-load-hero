@@ -9,16 +9,10 @@ const ThreeCanvas = ({ className }) => {
     <Canvas
       gl={{ antialias: false, alpha: false }}
       camera={{
-        near: 1,
-        far: 1000,
-        fov: 75,
-        position: [0, 0, -200]
+        position: [0, 0, 1]
       }}
     >
-      <ambientLight intensity={0.1} />
-      <color attach="background" args={['#12071F']} />
-      <directionalLight position={[-100, 0, 0]} color="#ffffff" />
-      <directionalLight position={[0, 0, -100]} color="#BC027F" />
+      <color attach="background" args={['#12071f']} />
       <ThreeStars />
     </Canvas>
   );

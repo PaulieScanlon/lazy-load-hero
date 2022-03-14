@@ -25,8 +25,10 @@
   },
   "homepage": "https://github.com/gatsby-inc/gatsby-demo-minimal#readme",
   "dependencies": {
+    "@react-three/drei": "^8.16.4",
     "@react-three/fiber": "^7.0.24",
     "gatsby": "^4.1.1",
+    "maath": "^0.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "three": "^0.136.0"
