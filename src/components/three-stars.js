@@ -1,26 +1,24 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { useFrame } from '@react-three/fiber';
-import ThreeStar from './three-star';
-
-const RANGE = 300;
+import { Points, PointMaterial } from '@react-three/drei';
+import * as random from 'maath/random/dist/maath-random.cjs';
 
 const ThreeStars = () => {
-  const mesh = useRef(null);
+  const ref = useRef(null);
 
-  useFrame(() => {
-    return (mesh.current.rotation.x += 0.001), (mesh.current.rotation.y += 0.001);
+  const [sphere] = useState(() => random.inSphere(new Float32Array(5000), { radius: 3.5 }));
+
+  useFrame((state, delta) => {
+    ref.current.rotation.x -= delta / 10;
+    ref.current.rotation.y -= delta / 15;
   });
 
   return (
-    <mesh ref={mesh}>
-      {new Array(1000).fill('').map((_, index) => {
-        const x = Math.random() * RANGE - RANGE / 2;
-        const y = Math.random() * RANGE - RANGE / 2;
-        const z = Math.random() * RANGE - RANGE / 2;
-
-        return <ThreeStar key={index} x={x} y={y} z={z} />;
-      })}
-    </mesh>
+    <group rotation={[0, 0, Math.PI / 4]}>
+      <Points ref={ref} positions={sphere} stride={3} frustumCulled={false}>
+        <PointMaterial transparent={true} color="#f6b4ff" size={0.013} sizeAttenuation={true} depthWrite={false} />
+      </Points>
+    </group>
   );
 };
 
